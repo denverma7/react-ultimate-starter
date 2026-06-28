@@ -82,6 +82,9 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import DesktopNavigation from "./DesktopNavigation";
+import HeaderActions from "./HeaderActions";
+import MobileNavigation from "./MobileNavigation";
 
 import HeaderContainer from "./HeaderContainer";
 import Logo from "./Logo";
@@ -129,9 +132,10 @@ export default function Header() {
       <HeaderContainer>
         <Logo />
 
-        <div className="text-sm text-slate-500">
-          Header Module - Volume 1
-        </div>
+        <DesktopNavigation />
+
+        <HeaderActions />
+        <MobileNavigation />
       </HeaderContainer>
     </motion.header>
   );
