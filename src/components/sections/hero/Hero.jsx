@@ -14,7 +14,7 @@ export default function Hero() {
       id="home"
       className={`${HERO_MIN_HEIGHT} flex items-center pt-24`}
     >
-      <HeroContainer className="grid items-center gap-16 lg:grid-cols-2">
+      <HeroContainer className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         {/* Left */}
         <div>
           <HeroContent data={heroData} />

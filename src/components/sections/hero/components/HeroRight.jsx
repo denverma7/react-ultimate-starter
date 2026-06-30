@@ -7,7 +7,7 @@ import HeroParallax from "./HeroParallax";
 
 export default function HeroRight() {
   return (
-    <div className="relative hidden min-h-[600px] overflow-hidden lg:flex items-center justify-center">
+    <div className="relative flex min-height: 350px; items-center justify-center overflow-hidden lg:min-height: 600px;">
 
       <HeroBackground />
 
