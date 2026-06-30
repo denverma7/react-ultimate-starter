@@ -1,4 +1,4 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 
 const sizes = {
   sm: "max-w-3xl",

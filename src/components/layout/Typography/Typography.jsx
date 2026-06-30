@@ -1,4 +1,4 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 
 const variants = {
   h1: "text-5xl font-bold",

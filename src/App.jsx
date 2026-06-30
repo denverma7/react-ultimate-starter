@@ -48,13 +48,18 @@
 
 import Header from "@/components/navigation/Header";
 import Hero from "@/components/sections/hero";
+import Features from "@/components/sections/features";
 
 export default function App() {
   return (
     <>
       <Header />
 
-      <Hero />
+      <main>
+        <Hero />
+        <Features />
+      </main>
+
     </>
   );
 }

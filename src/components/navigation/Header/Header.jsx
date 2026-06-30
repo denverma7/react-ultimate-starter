@@ -89,7 +89,7 @@ import MobileNavigation from "./MobileNavigation";
 import HeaderContainer from "./HeaderContainer";
 import Logo from "./Logo";
 
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 
 import {
   HEADER_HEIGHT,

@@ -1,4 +1,4 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 
 /**
  * Shared wrapper for all form controls.

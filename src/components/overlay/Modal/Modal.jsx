@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import Portal from "@/utils/Portal";
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 
 import useEscapeKey from "@/hooks/useEscapeKey";
 import useScrollLock from "@/hooks/useScrollLock";

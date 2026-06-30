@@ -1,7 +1,7 @@
 import { forwardRef, useId, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 import Field from "../Field";
 
 const sizes = {

@@ -1,5 +1,5 @@
 import { forwardRef, useId } from "react";
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/cn";
 import Field from "@/components/forms/Field";
 
 const Textarea = forwardRef(
