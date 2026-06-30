@@ -47,29 +47,14 @@
 // export default App;
 
 import Header from "@/components/navigation/Header";
+import Hero from "@/components/sections/hero";
 
 export default function App() {
   return (
-    <div className="relative flex min-h-screen flex-col">
-      <div className="fixed top-0 z-50 w-full">
-        <Header />
-      </div>
+    <>
+      <Header />
 
-      <main className="flex-1 pt-20">
-        <div className="mx-auto flex min-h-[calc(100vh-5rem)] max-w-7xl items-center justify-center px-4">
-          <div className="text-center">
-            <h1 className="mb-4 text-5xl font-bold">
-              React Starter Framework
-            </h1>
-
-            <p className="mx-auto max-w-2xl text-lg text-slate-600 dark:text-slate-400">
-              Building a production-ready React starter template with
-              reusable components, layouts, authentication, dashboard,
-              animations, and responsive design.
-            </p>
-          </div>
-        </div>
-      </main>
-    </div>
+      <Hero />
+    </>
   );
 }
