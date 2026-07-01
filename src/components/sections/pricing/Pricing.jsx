@@ -27,6 +27,7 @@ export default function Pricing() {
           badge={PRICING_BADGE}
           title={PRICING_TITLE}
           description={PRICING_DESCRIPTION}
+          className="mb-12"
         />
 
         <PricingGrid>
