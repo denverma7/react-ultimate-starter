@@ -1,19 +1,8 @@
-import Card from './Card';
-import CardBadge from './CardBadge';
-import CardContent from './CardContent';
-import CardDescription from './CardDescription';
-import CardFooter from './CardFooter';
-import CardHeader from './CardHeader';
-import CardTitle from './CardTitle';
-
-export {
-  Card,
-  CardBadge,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-};
-
-export default Card;
+export { default } from "./Card";
+export { default as Card } from "./Card";
+export { default as CardHeader } from "./CardHeader";
+export { default as CardContent } from "./CardContent";
+export { default as CardFooter } from "./CardFooter";
+export { default as CardTitle } from "./CardTitle";
+export { default as CardDescription } from "./CardDescription";
+export { default as CardBadge } from "./CardBadge";
