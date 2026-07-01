@@ -8,10 +8,11 @@ import {
 
 import { features } from "./features.data";
 
-import FeaturesHeader from "./components/FeaturesHeader";
+// import FeaturesHeader from "./components/FeaturesHeader";
 import FeaturesGrid from "./components/FeaturesGrid";
 import FeatureCard from "./components/FeatureCard";
 import FeatureSectionBackground from "./components/FeatureSectionBackground";
+import SectionHeader from "@/components/common/SectionHeader/SectionHeader";
 
 export default function Features() {
   return (
@@ -22,9 +23,14 @@ export default function Features() {
       <FeatureSectionBackground />
       {/* <div className="absolute inset-0 -z-10 bg-linear-to-b from-white via-slate-50 to-white" /> */}
       <SectionContainer>
-        <FeaturesHeader
+        {/* <FeaturesHeader
           title={FEATURES_TITLE}
           description={FEATURES_DESCRIPTION}
+        /> */}
+        <SectionHeader
+            badge="Features"
+            title={FEATURES_TITLE}
+            description={FEATURES_DESCRIPTION}
         />
 
         <FeaturesGrid>
